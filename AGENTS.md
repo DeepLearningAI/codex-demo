@@ -1,10 +1,11 @@
 # AGENTS.md
 
 ## How to run
-npm install
-npm test
+- Install deps: `npm run install:frontend`
+- Start dev frontend: `npm run dev`
+- Build frontend: `npm run build`
 
 ## Coding style
 - Keep functions small
-- Write tests for new features
 - Follow existing structure
+- Keep dependencies minimal
