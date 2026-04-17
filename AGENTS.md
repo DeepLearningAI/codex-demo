@@ -1,9 +1,11 @@
 # AGENTS.md
 
 ## How to run
-- Install deps: `npm run install:frontend`
-- Start dev frontend: `npm run dev`
-- Build frontend: `npm run build`
+Backend:
+- `cd backend && npm install && npm run dev`
+
+Frontend:
+- `cd frontend && npm install && npm run dev`
 
 ## Coding style
 - Keep functions small

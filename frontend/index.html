@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astronomy Tutor AI</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <main class="container">
+      <h1>Astronomy Tutor AI</h1>
+      <p class="sub">Ask a quick astronomy question.</p>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="message-input"
+          type="text"
+          placeholder="Example: Why do stars twinkle?"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
